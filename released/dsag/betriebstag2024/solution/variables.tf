@@ -45,7 +45,7 @@ variable "costcenter" {
 variable "org_name" {
   type        = string
   description = "Defines to which organisation the project account shall belong to."
-  default     = "B2C"
+  default     = "B2B"
 
   validation {
     condition = contains(concat(
