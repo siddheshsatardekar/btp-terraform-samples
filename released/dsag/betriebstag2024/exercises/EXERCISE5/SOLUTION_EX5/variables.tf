@@ -72,7 +72,7 @@ variable "org_name" {
 variable "emergency_admins" {
   type        = list(string)
   description = "Defines the colleagues who are added to each subaccount as emergency administrators."
-  default     = ["jane.doe@test.com", "john.doe@test.com"]
+  default     = ["siddhesh.satardekar1984@gmail.com"]
 }
 
 
